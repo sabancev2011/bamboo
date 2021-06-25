@@ -1,0 +1,200 @@
+@import "fonts";
+@import "libs/normalize";
+@import "componets/all";
+
+.container {
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.hero {
+    min-height: 728px;
+    background-image: url(../img/hero-bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__intro {
+        margin-top: 64px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+        color: #282825;
+        letter-spacing: 5px;
+    }
+
+    &__title {
+        margin-top: 30px;
+        text-align: center;
+        font-family: "Merriweather";
+        font-style: 400;
+        font-size: 42px;
+        line-height: 63.35px;
+        color: #282825;
+    }
+
+    &__text {
+        text-align: center;
+        font-size: 24px;
+        line-height: 35px;
+        max-width: 557px;
+        margin: 8px auto 0 auto;
+    }
+}
+
+.content__topWrapper {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    margin: 41px 0 0 73px;
+}
+
+.content__wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.productCard {
+    min-height: 100vh;
+    .product {
+        padding: 190px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__img {
+            width: 700px;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &__content {
+            max-width: 550px;
+            width: 100%;
+            color: #181813;
+            h1 {
+                font-family: "Merriweather";
+                font-size: 42px;
+                font-weight: 700;
+                line-height: 63px;
+            }
+            p {
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+        &__price {
+            display: inline-block;
+            font-family: "Jacques Francois";
+            font-size: 32px;
+            line-height: 51px;
+            margin-bottom: 50px;
+        }
+        .item__selector.card {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 340px;
+            width: 100%;
+            margin-top: 45px;
+            ul {
+                margin: 0;
+            }
+            p {
+                font-size: 20px;
+                font-weight: 700;
+                color: #181813;
+                margin-bottom: 10px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+            }
+            .item__inner.card {
+                flex-direction: column;
+                align-items: flex-start;
+                margin-bottom: 100px;
+            }
+            .item__inner.qty {
+                span {
+                    font-size: 24px;
+                    font-weight: 700;
+                    margin-right: 30px;
+                }
+                .item__qty.card {
+                    margin: 0;
+                    max-width: 90px;
+                    .item__qtyBtn.card {
+                        font-size: 22px;
+                        width: 30px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.cart {
+    min-height: 100vh;
+    &__wrapper {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto 165px auto;
+    }
+    &__icon,
+    &__clearBtn {
+        display: flex;
+        align-items: center;
+    }
+    &__clearBtn {
+        cursor: pointer;
+    }
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 165px;
+        padding-bottom: 25px;
+        border-bottom: solid 1px #f4f4f4;
+        .cart__iconText {
+            color: #000000;
+            font-size: 32px;
+            font-weight: 700;
+            margin-left: 30px;
+        }
+        .cart__clearText {
+            color: #b6b6b6;
+        }
+    }
+
+    &__total {
+        margin: 60px 0 50px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__totalItems,
+    &__totalChash {
+        display: flex;
+    }
+    &__totalItems {
+        font-size: 22px;
+        p {
+            margin-left: 10px;
+        }
+    }
+    &__totalChash {
+        font-size: 22px;
+        font-weight: 700;
+        p {
+            margin-right: 25px;
+        }
+    }
+}

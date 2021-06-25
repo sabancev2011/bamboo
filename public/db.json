@@ -1,0 +1,178 @@
+{
+  "items": [
+    {
+      "id": 0,
+      "imageUrl": "img/milanTable.png",
+      "name": "Milan table",
+      "color": ["brown", "dark grey"],
+      "sizes": ["S", "M", "L"],
+      "price": 210,
+      "category": 3,
+      "default": 69
+    },
+    {
+      "id": 1,
+      "imageUrl": "img/CraftWardrobe.png",
+      "name": "Craft wardrobe",
+      "color": ["dark grey"],
+      "sizes": ["S", "M", "L"],
+      "price": 164,
+      "category": 4,
+      "default": 44
+    },
+    {
+      "id": 2,
+      "imageUrl": "img/ontarioChair.png",
+      "name": "Ontario chair",
+      "color": ["brown", "light grey"],
+      "sizes": ["L"],
+      "price": 120,
+      "category": 2,
+      "default": 38
+    },
+    {
+      "id": 3,
+      "imageUrl": "img/EllaChair.png",
+      "name": "Ella chair",
+      "color": ["brown", "dark grey", "light grey"],
+      "sizes": ["M", "L"],
+      "price": 132,
+      "category": 2,
+      "default": 63
+    },
+    {
+      "id": 4,
+      "imageUrl": "img/OscarWardrobe.png",
+      "name": "Oscar wardrobe",
+      "color": ["brown", "dark grey", "light grey"],
+      "sizes": ["S", "M", "L"],
+      "price": 150,
+      "category": 4,
+      "default": 88
+    },
+    {
+      "id": 5,
+      "imageUrl": "img/jaggerTable.png",
+      "name": "Jagger table",
+      "color": ["brown", "dark grey", "light grey"],
+      "sizes": ["S", "M", "L"],
+      "price": 255,
+      "category": 3,
+      "default": 54
+    },
+    {
+      "id": 6,
+      "imageUrl": "img/RumbaChair.png",
+      "name": "Rumba chair",
+      "color": ["brown", "dark grey", "light grey"],
+      "sizes": ["M", "L"],
+      "price": 122,
+      "category": 2,
+      "default": 87
+    },
+    {
+      "id": 7,
+      "imageUrl": "img/lindaBed.png",
+      "name": "Linda bed",
+      "color": ["light grey"],
+      "sizes": ["S", "M"],
+      "price": 322,
+      "category": 5,
+      "default": 31
+    },
+    {
+      "id": 8,
+      "imageUrl": "img/madridSofa.png",
+      "name": "Madrid sofa",
+      "color": ["brown", "dark grey", "light grey"],
+      "sizes": ["S", "M", "L"],
+      "price": 295,
+      "category": 1,
+      "default": 67
+    },
+    {
+      "id": 9,
+      "imageUrl": "img/manhattanSofa.png",
+      "name": "Manhattan sofa",
+      "color": ["brown", "dark grey"],
+      "sizes": ["S", "M", "L"],
+      "price": 280,
+      "category": 1,
+      "default": 33
+    },
+    {
+      "id": 10,
+      "imageUrl": "img/SonomaWardrobe.png",
+      "name": "Sonoma wardrobe",
+      "color": ["dark grey", "light grey"],
+      "sizes": ["M", "L"],
+      "price": 155,
+      "category": 4,
+      "default": 22
+    },
+    {
+      "id": 11,
+      "imageUrl": "img/agataBed.png",
+      "name": "Agata bed",
+      "color": ["brown", "dark grey", "light grey"],
+      "sizes": ["M", "L"],
+      "price": 311,
+      "category": 5,
+      "default": 55
+    },
+    {
+      "id": 12,
+      "imageUrl": "img/milanSofa.png",
+      "name": "Milan sofa",
+      "color": ["brown", "dark grey", "light grey"],
+      "sizes": ["S", "L"],
+      "price": 280,
+      "category": 1,
+      "default": 77
+    },
+    {
+      "id": 13,
+      "imageUrl": "img/blankaBed.png",
+      "name": "Blanka bed",
+      "color": ["brown", "dark grey", "light grey"],
+      "sizes": ["S", "M", "L"],
+      "price": 312,
+      "category": 5,
+      "default": 56
+    },
+    {
+      "id": 14,
+      "imageUrl": "img/azzuroTable.png",
+      "name": "Azzuro table",
+      "color": ["brown", "dark grey", "light grey"],
+      "sizes": ["S", "M", "L"],
+      "price": 213,
+      "category": 3,
+      "default": 44
+    },
+    {
+      "id": 15,
+      "imageUrl": "img/RibesChair.png",
+      "name": "Ribes chair",
+      "color": ["brown", "dark grey", "light grey"],
+      "sizes": ["S", "M", "L"],
+      "price": 120,
+      "category": 2,
+      "default": 65
+    }
+    
+   
+   
+   
+  
+  
+
+
+
+
+
+
+
+
+  ]
+}
