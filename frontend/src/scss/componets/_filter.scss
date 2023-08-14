@@ -1,0 +1,29 @@
+
+.filter {
+    ul {
+        display: flex;
+    }
+    li {
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        padding: 20px 40px;
+    }
+    li.active {
+        background-color: #ffb338;
+        color: #ffffff;
+        font-weight: 700;
+    }
+
+
+    @media (max-width: 1150px) {
+        & {
+            ul {
+                flex-direction: column;
+            }
+        }
+    }
+
+}
+
+

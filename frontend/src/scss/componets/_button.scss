@@ -1,0 +1,51 @@
+.button {
+    font-size: 14px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffb338;
+    width: 160px;
+    height: 40px;
+    font-weight: 700;
+    border-radius: 20px;
+    color: #181813;
+    img {
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+    }
+
+    &.btn--card {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0;
+        width: 320px;
+        height: 80px;
+        border-radius: 40px;
+        cursor: pointer;
+        margin-left: 59px;
+        img {
+            width: auto;
+            height: auto;
+            margin: 0 25px 0 0;
+        }
+    }
+
+    &.btn--pay {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: 700;
+        width: 210px;
+        height: 60px;
+        border-radius: 30px;
+        background-color: #ffb338;
+        cursor: pointer;
+        img {
+            margin-right: 10px;
+        }
+    }
+}

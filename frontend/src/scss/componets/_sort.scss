@@ -1,0 +1,41 @@
+.sort {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    position: relative;
+    &__header {
+        width: 220px;
+        cursor: pointer;
+        span {
+            font-weight: 400;
+            color: #ffb338;
+            margin: 0 10px;
+        }
+        img {
+            transform: rotate(180deg);
+        }
+        img.active {
+            transform: rotate(0deg);
+        }
+    }
+    &__popUp {
+        position: absolute;
+        width: 100%;
+        display: block;
+        margin-top: 17px;
+        background: #ffffff;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        font-weight: 400;
+        ul {
+            padding: 25px 0;
+        }
+        li {
+            cursor: pointer;
+            padding: 15px 0 15px 30px;
+        }
+        li.active {
+            color: #ffb338;
+        }
+    }
+}

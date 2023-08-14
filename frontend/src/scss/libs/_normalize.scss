@@ -1,0 +1,61 @@
+
+body {
+    font-family: "inter";
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+* {
+    box-sizing: border-box;
+    &:before,
+    &:after {
+        box-sizing: inherit;
+    }
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #626780;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+}
+
+button:active,
+button:focus {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+input,
+textarea {
+    display: block;
+    outline: none;
+    border: none;
+}
+
