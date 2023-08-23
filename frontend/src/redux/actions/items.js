@@ -6,11 +6,15 @@ export const setLoaded = (payload) => ({
   payload,
 });
 
-export const fetchItems = (category, sortBy) => (dispatch) => {
+export const fetchItems = (category, sortBy) => async (dispatch) => {
   dispatch(setLoaded(false));
-  axios.get(`https://${process.env.REACT_APP_API_URL}/items?${category > 0 ? `category=${category}` : ''}&_sort=${sortBy.type}&_order=asc`).then(({ data }) => {
+  try {
+    const { data } = await axios.get(`https://${process.env.REACT_APP_API_URL}/items?${category > 0 ? `category=${category}` : ''}&_sort=${sortBy.type}&_order=asc`)
     dispatch(setItems(data));
-  });
+  }
+  catch (error) {
+    console.log(error)
+  }
 };
 
 export const setItems = (items) => ({
